@@ -17,7 +17,11 @@ meta:
 
 permalink: "/2019/11/22/gan-links/"
 ---
-<p>PGGAN models <a href="https://drive.google.com/open?id=15hvzxt_XxuokSmj0uO4xxMTMWVc0cIMU">https://drive.google.com/open?id=15hvzxt_XxuokSmj0uO4xxMTMWVc0cIMU</a><br />
-StyleGAN model <a href="https://drive.google.com/drive/folders/1MASQyN5m0voPcx7-9K0r5gObhvvPups7">https://drive.google.com/drive/folders/1MASQyN5m0voPcx7-9K0r5gObhvvPups7</a><br />
-The implementation of StyleGAN <a href="https://github.com/NVlabs/stylegan">https://github.com/NVlabs/stylegan</a><br />
-The implementation of BigGAN <a href="https://github.com/ajbrock/BigGAN-PyTorch">https://github.com/ajbrock/BigGAN-PyTorch</a></p>
+
+PGGAN models [Model](https://drive.google.com/open?id=15hvzxt_XxuokSmj0uO4xxMTMWVc0cIMU)
+
+StyleGAN model [Model](https://drive.google.com/drive/folders/1MASQyN5m0voPcx7-9K0r5gObhvvPups7)
+
+The implementation of StyleGAN [Model](https://github.com/NVlabs/stylegan)
+
+The implementation of BigGAN [Model](https://github.com/ajbrock/BigGAN-PyTorch)

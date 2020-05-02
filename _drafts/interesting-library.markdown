@@ -14,7 +14,11 @@ meta:
 
 permalink: "/"
 ---
-<p>https://github.com/skypjack?tab=repositories</p>
-<p>There are some library c++ interesting uvw for wrapper libuv for IO handling in C++.</p>
-<p>entt for entity library.</p>
-<p>Entity library c++</p>
+
+https://github.com/skypjack?tab=repositories
+
+There are some library c++ interesting uvw for wrapper libuv for IO handling in C++.
+
+entt for entity library.
+
+Entity library c++

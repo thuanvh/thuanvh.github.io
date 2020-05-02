@@ -19,9 +19,12 @@ meta:
 
 permalink: "/2019/10/14/no-free-lunch/"
 ---
-<p>Today, I luckily have read a post about No Free Lunch for Data Science. In the meaning, there are no free lunch for any algorithms, any models, any search algorithm in our world.</p>
-<p>https://www.kdnuggets.com/2019/09/no-free-lunch-data-science.html</p>
-<p>I resumed some ideas :</p>
+
+Today, I luckily have read a post about No Free Lunch for Data Science. In the meaning, there are no free lunch for any algorithms, any models, any search algorithm in our world.
+
+https://www.kdnuggets.com/2019/09/no-free-lunch-data-science.html
+
+I resumed some ideas :
 <ul>
 <li>No perfect, completely perfect machine learning algorithm, supervised algorithm. It only is good in context of some dataset. But another context it maybe not. We not sure.</li>
 <li>It is right for search algorithms in case of large search space.</li>

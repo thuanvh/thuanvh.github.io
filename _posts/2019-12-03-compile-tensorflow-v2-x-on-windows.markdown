@@ -20,8 +20,10 @@ meta:
 
 permalink: "/2019/12/03/compile-tensorflow-v2-x-on-windows/"
 ---
-<p>Build it as link https://www.tensorflow.org/install/source_windows</p>
-<p>Note:</p>
+
+Build it as link https://www.tensorflow.org/install/source_windows
+
+Note:
 <ul>
 <li>Download Bazelick and rename it to bazel</li>
 <li>Add to bazel folder to PATH</li>
@@ -29,9 +31,15 @@ permalink: "/2019/12/03/compile-tensorflow-v2-x-on-windows/"
 <li>Install python numpy package</li>
 <li>Run on virtualenv</li>
 </ul>
-<p>&nbsp;</p>
-<p>https://gist.github.com/thuanvh/04e34f1a74c2e6be79ae72a8906cc47d</p>
-<p>Binaries Download:</p>
-<p>Tensorflow 2.1.0-rc1 windows:</p>
-<p>https://github.com/thuanvh/tensorflow/releases/tag/2.1.0-rc1-win-x64-avx</p>
-<p>&nbsp;</p>
+
+
+
+https://gist.github.com/thuanvh/04e34f1a74c2e6be79ae72a8906cc47d
+
+Binaries Download:
+
+Tensorflow 2.1.0-rc1 windows:
+
+https://github.com/thuanvh/tensorflow/releases/tag/2.1.0-rc1-win-x64-avx
+
+

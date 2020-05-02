@@ -14,8 +14,13 @@ meta:
 
 permalink: "/"
 ---
-<p>The popularity of Kubernetes is a hot trend.</p>
-<p>https://dev.to/pavanbelagatti/practical-kubernetes-stories-for-developers-330d</p>
-<p>This article talks about using kubernetes and some practical learning course.</p>
-<p>Kubernetes: Application -&gt; Pods -&gt; Nodes (Master-</p>
-<p>&nbsp;</p>
+
+The popularity of Kubernetes is a hot trend.
+
+https://dev.to/pavanbelagatti/practical-kubernetes-stories-for-developers-330d
+
+This article talks about using kubernetes and some practical learning course.
+
+Kubernetes: Application -&gt; Pods -&gt; Nodes (Master-
+
+

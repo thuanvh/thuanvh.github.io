@@ -20,10 +20,17 @@ meta:
 
 permalink: "/2019/11/18/brief-sgd/"
 ---
-<p>https://www.datasciencecentral.com/profiles/blogs/a-brief-and-comprehensive-guide-to-stochastic-gradient-descent</p>
-<p>In the above reference, it displays some idea of some SGD optimization in a short way which support us to summarize important ideas of SGD.</p>
-<p>SGD</p>
-<p>Gradient Perturbation : Add small noisy term to gradient.</p>
-<p>Momentum and Nesterov Momentum : Add a correction factor (a history of gradient change, exponentially weighted moving average) to gradient.</p>
-<p>RMSProp : Adapt correction factor to each parameter.</p>
-<p>&nbsp;</p>
+
+https://www.datasciencecentral.com/profiles/blogs/a-brief-and-comprehensive-guide-to-stochastic-gradient-descent
+
+In the above reference, it displays some idea of some SGD optimization in a short way which support us to summarize important ideas of SGD.
+
+SGD
+
+Gradient Perturbation : Add small noisy term to gradient.
+
+Momentum and Nesterov Momentum : Add a correction factor (a history of gradient change, exponentially weighted moving average) to gradient.
+
+RMSProp : Adapt correction factor to each parameter.
+
+

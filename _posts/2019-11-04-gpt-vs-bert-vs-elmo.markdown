@@ -17,16 +17,26 @@ meta:
 
 permalink: "/2019/11/04/gpt-vs-bert-vs-elmo/"
 ---
-<p>For language model, I read a slide for fast reading GPT, BERT and ELMo.</p>
-<p><a href="https://52paper.github.io/20181018_gaojun.pdf">https://52paper.github.io/20181018_gaojun.pdf<br />
-</a><br />
-<img class="alignnone size-full wp-image-34" src="{{ site.baseurl }}/assets/untitled.png" alt="Untitled" width="989" height="426" /></p>
-<p>For detail in BERT transformer based on attentions, there is a blog that shows how BERT attention show the parsing tree</p>
-<p><a href="https://medium.com/synapse-dev/understanding-bert-transformer-attention-isnt-all-you-need-5839ebd396db">https://medium.com/synapse-dev/understanding-bert-transformer-attention-isnt-all-you-need-5839ebd396db</a></p>
-<p>The visualization tool for understanding attentions:</p>
-<p><a href="https://github.com/jessevig/bertviz">https://github.com/jessevig/bertviz</a></p>
-<p>And a video for bertviz:</p>
-<p>There is a list of pretrained language models provided by HuggingFace Transformers:</p>
-<p><a href="https://huggingface.co/transformers/index.html">https://huggingface.co/transformers/index.html</a></p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+
+For language model, I read a slide for fast reading GPT, BERT and ELMo.
+https://52paper.github.io/20181018_gaojun.pdf
+
+<img class="alignnone size-full wp-image-34" src="{{ site.baseurl }}/assets/untitled.png" alt="Untitled" width="989" height="426" />
+
+For detail in BERT transformer based on attentions, there is a blog that shows how BERT attention show the parsing tree
+
+https://medium.com/synapse-dev/understanding-bert-transformer-attention-isnt-all-you-need-5839ebd396db
+
+The visualization tool for understanding attentions:
+
+https://github.com/jessevig/bertviz
+
+And a video for bertviz:
+
+There is a list of pretrained language models provided by HuggingFace Transformers:
+
+https://huggingface.co/transformers/index.html
+
+
+
+

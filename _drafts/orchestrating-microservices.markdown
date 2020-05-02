@@ -15,14 +15,20 @@ meta:
 
 permalink: "/"
 ---
-<p>https://stackoverflow.com/questions/29117570/orchestrating-microservices</p>
-<p>NetFlix stories<br />
-https://medium.com/netflix-techblog/optimizing-the-netflix-api-5c9ac715cf19</p>
-<p>Optimization of UI for multiple device, need to redesign API.</p>
-<p>&nbsp;</p>
-<p>Amazon stories<br />
-http://highscalability.com/amazon-architecture</p>
-<p>Stories about how to improve the scalability of software. With many aspect need to read, and useful in software development, deployment, third-party:</p>
+
+https://stackoverflow.com/questions/29117570/orchestrating-microservices
+
+NetFlix stories<br />
+https://medium.com/netflix-techblog/optimizing-the-netflix-api-5c9ac715cf19
+
+Optimization of UI for multiple device, need to redesign API.
+
+
+
+Amazon stories<br />
+http://highscalability.com/amazon-architecture
+
+Stories about how to improve the scalability of software. With many aspect need to read, and useful in software development, deployment, third-party:
 <ul>
 <li>Cut technology to minimize the resources you need to solve a problem. Not increase the complexity.</li>
 <li>Get rid of the influence of high paid person in the room. Give customer a choice and see which alternatives give you result you want.</li>

@@ -15,4 +15,5 @@ meta:
 
 permalink: "/about/"
 ---
-<p>Bonjour</p>
+
+Bonjour

@@ -20,8 +20,10 @@ meta:
 
 permalink: "/2019/11/15/very-good-write-for-eigendecomposition/"
 ---
-<p>http://www.deeplearningbook.org/contents/linear_algebra.html</p>
-<p>Eigen Decomposition</p>
+
+http://www.deeplearningbook.org/contents/linear_algebra.html
+
+Eigen Decomposition
 <blockquote>
 <div>
 <div class="t m2 x1 h3 y1de ff3 fs2 fc0 sc0 ls0 ws0">One of the most widely used kinds of matrix decomposition is called eigen-decomposition, in which we decompose a matrix into a set of eigenvectors and</div>

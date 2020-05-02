@@ -14,9 +14,15 @@ meta:
 
 permalink: "/"
 ---
-<p>It is a combination of Yolo and Full-DCNN</p>
-<p>Yolo for create a grid 9x9 rectangle for detection.</p>
-<p>Full-DCNN for fine-tuning which face rectangles in the above grid.</p>
-<p>https://github.com/iitzco/faced</p>
-<p>One notice marked in this repos. That means Yolo is currently</p>
-<blockquote><p>[1] Those models cannot perform Real Time on CPU (YOLO at least). Even tiny-yolo version cannot achieve 1 fps on CPU (tested on 2015 MacBook Pro with 2.6 GHz Intel Core i5).</p></blockquote>
+
+It is a combination of Yolo and Full-DCNN
+
+Yolo for create a grid 9x9 rectangle for detection.
+
+Full-DCNN for fine-tuning which face rectangles in the above grid.
+
+https://github.com/iitzco/faced
+
+One notice marked in this repos. That means Yolo is currently
+<blockquote>
+[1] Those models cannot perform Real Time on CPU (YOLO at least). Even tiny-yolo version cannot achieve 1 fps on CPU (tested on 2015 MacBook Pro with 2.6 GHz Intel Core i5).</blockquote>
