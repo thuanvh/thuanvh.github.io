@@ -1,0 +1,29 @@
+---
+layout: post
+title: Brief SGD
+date: 2019-11-18 08:23:44.000000000 +07:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories: []
+tags: []
+meta:
+  _oembed_36dec08d900d7c9a21e193ec9e1d9a15: "{{unknown}}"
+  _oembed_d2487ee06b8298c2e9bd28ec86f613cb: "{{unknown}}"
+  _rest_api_published: '1'
+  _rest_api_client_id: "-1"
+  _publicize_job_id: '37540821513'
+  timeline_notification: '1574065428'
+  _oembed_267ac1be734cc11f6e2988d08d848d73: "{{unknown}}"
+
+permalink: "/2019/11/18/brief-sgd/"
+---
+<p>https://www.datasciencecentral.com/profiles/blogs/a-brief-and-comprehensive-guide-to-stochastic-gradient-descent</p>
+<p>In the above reference, it displays some idea of some SGD optimization in a short way which support us to summarize important ideas of SGD.</p>
+<p>SGD</p>
+<p>Gradient Perturbation : Add small noisy term to gradient.</p>
+<p>Momentum and Nesterov Momentum : Add a correction factor (a history of gradient change, exponentially weighted moving average) to gradient.</p>
+<p>RMSProp : Adapt correction factor to each parameter.</p>
+<p>&nbsp;</p>

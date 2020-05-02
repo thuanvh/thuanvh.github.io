@@ -1,0 +1,18 @@
+---
+layout: page
+title: About
+date: 2009-02-24 15:43:00.000000000 +07:00
+type: page
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories: []
+tags: []
+meta:
+  _edit_last: '6974746'
+  _wp_page_template: default
+
+permalink: "/about/"
+---
+<p>Bonjour</p>

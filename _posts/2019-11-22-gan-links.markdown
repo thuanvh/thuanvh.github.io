@@ -1,0 +1,23 @@
+---
+layout: post
+title: GAN Links
+date: 2019-11-22 03:42:06.000000000 +07:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories: []
+tags: []
+meta:
+  _rest_api_published: '1'
+  _rest_api_client_id: "-1"
+  _publicize_job_id: '37678266065'
+  timeline_notification: '1574394130'
+
+permalink: "/2019/11/22/gan-links/"
+---
+<p>PGGAN models <a href="https://drive.google.com/open?id=15hvzxt_XxuokSmj0uO4xxMTMWVc0cIMU">https://drive.google.com/open?id=15hvzxt_XxuokSmj0uO4xxMTMWVc0cIMU</a><br />
+StyleGAN model <a href="https://drive.google.com/drive/folders/1MASQyN5m0voPcx7-9K0r5gObhvvPups7">https://drive.google.com/drive/folders/1MASQyN5m0voPcx7-9K0r5gObhvvPups7</a><br />
+The implementation of StyleGAN <a href="https://github.com/NVlabs/stylegan">https://github.com/NVlabs/stylegan</a><br />
+The implementation of BigGAN <a href="https://github.com/ajbrock/BigGAN-PyTorch">https://github.com/ajbrock/BigGAN-PyTorch</a></p>
