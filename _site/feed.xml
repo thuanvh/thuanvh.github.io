@@ -1,4 +1,170 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-03T00:18:20+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">A bla bla developer blog</title><subtitle>Work note.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2020/05/02/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-05-02T01:17:24+07:00</published><updated>2020-05-02T01:17:24+07:00</updated><id>http://localhost:4000/jekyll/update/2020/05/02/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/05/02/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-03T16:36:56+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">A bla bla developer blog</title><subtitle>Work note.</subtitle><entry><title type="html">Python-coding-style</title><link href="http://localhost:4000/jekyll/update/2020/05/03/python-coding-style.html" rel="alternate" type="text/html" title="Python-coding-style" /><published>2020-05-03T01:17:24+07:00</published><updated>2020-05-03T01:17:24+07:00</updated><id>http://localhost:4000/jekyll/update/2020/05/03/python-coding-style</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/05/03/python-coding-style.html">&lt;p&gt;After look up for coding convention for Python. I have read a few guide for python coding convention.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.python-guide.org/writing/style/&quot;&gt;https://docs.python-guide.org/writing/style/&lt;/a&gt;
+Firstly is coding style written by Hitchhiker.&lt;/p&gt;
+
+&lt;p&gt;In summary for tldr;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Explicit code. Should write as normal thinking of people&lt;/li&gt;
+  &lt;li&gt;One state per line. As many languages convention, one line for one state&lt;/li&gt;
+  &lt;li&gt;Avoid magic wand. 
+Avoid hacking (change the way object instantiated, created, change the way python import modules, embeded C into python).
+We should avoid all of them, just keep the way straitforward as it is. That could reduce readibility, code analysis tool such as pylint,
+pyflakes.&lt;/li&gt;
+  &lt;li&gt;We are all reponsible user.
+In python there is many tricks. So we must be responsible.&lt;/li&gt;
+  &lt;li&gt;Returning value.
+Keep single exit point is better. Should not return in the middle.&lt;/li&gt;
+  &lt;li&gt;PEP 8 for style check &lt;a href=&quot;https://www.python.org/dev/peps/pep-0008&quot;&gt;https://www.python.org/dev/peps/pep-0008&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;PEP 20 for general guideline &lt;a href=&quot;https://www.python.org/dev/peps/pep-0020&quot;&gt;https://www.python.org/dev/peps/pep-0020&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/10-essential-python-tips-tricks-programmers&quot;&gt;https://www.geeksforgeeks.org/10-essential-python-tips-tricks-programmers&lt;/a&gt;
+&lt;a href=&quot;https://www.techbeamers.com/essential-python-tips-tricks-programmers&quot;&gt;https://www.techbeamers.com/essential-python-tips-tricks-programmers&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;swap
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;x, y = y, x
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;reverse a string
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;a = &quot;abc&quot;
+print(a[::-1])
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;string concatenation
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;a = [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;]
+print(&quot;&quot;.join(a))
+print(&quot; &quot;.join(a))
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;chaining of comparion
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;a = 10
+print(1 &amp;lt; a &amp;lt;= 20)
+print(1 &amp;gt; a &amp;lt;= 9)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;know where is module located
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import os
+print(os)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;enum in python
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;class A:
+ E1, E2, E3 = range(3)
+print(A.E1, A.E2, A.E3)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;use dictionary for switch&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;stdcalc = {
+	'sum': lambda x, y: x + y,
+	'subtract': lambda x, y: x - y
+}
+
+print(stdcalc['sum'](9,3))
+print(stdcalc['subtract'](9,3))
+
+Output:
+#1-&amp;gt; 12
+#2-&amp;gt; 6
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;most frequent array&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;test = [1,2,3,4,2,2,3,1,4,4,4]
+print(max(set(test), key=test.count))
+
+#-&amp;gt; 4
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;reset recursion limit&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import sys
+
+x=1001
+print(sys.getrecursionlimit())
+
+sys.setrecursionlimit(x)
+print(sys.getrecursionlimit())
+
+#1-&amp;gt; 1000
+#2-&amp;gt; 1001
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;check memory of object&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import sys
+x=1
+print(sys.getsizeof(x))
+
+#-&amp;gt; 24
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;use &lt;strong&gt;slots&lt;/strong&gt; to reduce memory overheads&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import sys
+class FileSystem(object):
+
+	def __init__(self, files, folders, devices):
+		self.files = files
+		self.folders = folders
+		self.devices = devices
+
+print(sys.getsizeof( FileSystem ))
+
+class FileSystem1(object):
+
+	__slots__ = ['files', 'folders', 'devices']
+	
+	def __init__(self, files, folders, devices):
+		self.files = files
+		self.folders = folders
+		self.devices = devices
+
+print(sys.getsizeof( FileSystem1 ))
+
+#In Python 3.5
+#1-&amp;gt; 1016
+#2-&amp;gt; 888
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Search prefix or suffix&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;print(&quot;http://www.google.com&quot;.startswith((&quot;http://&quot;, &quot;https://&quot;)))
+print(&quot;http://www.google.co.uk&quot;.endswith((&quot;.com&quot;, &quot;.co.uk&quot;)))
+
+#1-&amp;gt; True
+#2-&amp;gt; True
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Switch case&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def xswitch(x): 
+	return xswitch._system_dict.get(x, None) 
+
+xswitch._system_dict = {'files': 10, 'folders': 5, 'devices': 2}
+
+print(xswitch('default'))
+print(xswitch('devices'))
+
+#1-&amp;gt; None
+#2-&amp;gt; 2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">After look up for coding convention for Python. I have read a few guide for python coding convention.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2020/05/02/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-05-02T01:17:24+07:00</published><updated>2020-05-02T01:17:24+07:00</updated><id>http://localhost:4000/jekyll/update/2020/05/02/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/05/02/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
@@ -139,33 +305,4 @@ The loop run faster with a sorted array. The loop run a lot slower with unsorted
 
 &lt;p&gt;Momentum and Nesterov Momentum : Add a correction factor (a history of gradient change, exponentially weighted moving average) to gradient.&lt;/p&gt;
 
-&lt;p&gt;RMSProp : Adapt correction factor to each parameter.&lt;/p&gt;</content><author><name></name></author><summary type="html">https://www.datasciencecentral.com/profiles/blogs/a-brief-and-comprehensive-guide-to-stochastic-gradient-descent</summary></entry><entry><title type="html">Very good write for eigendecomposition</title><link href="http://localhost:4000/2019/11/15/very-good-write-for-eigendecomposition/" rel="alternate" type="text/html" title="Very good write for eigendecomposition" /><published>2019-11-15T09:27:12+07:00</published><updated>2019-11-15T09:27:12+07:00</updated><id>http://localhost:4000/2019/11/15/very-good-write-for-eigendecomposition</id><content type="html" xml:base="http://localhost:4000/2019/11/15/very-good-write-for-eigendecomposition/">&lt;p&gt;http://www.deeplearningbook.org/contents/linear_algebra.html&lt;/p&gt;
-
-&lt;p&gt;Eigen Decomposition&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;div&gt;
-&lt;div class=&quot;t m2 x1 h3 y1de ff3 fs2 fc0 sc0 ls0 ws0&quot;&gt;One of the most widely used kinds of matrix decomposition is called eigen-decomposition, in which we decompose a matrix into a set of eigenvectors and&lt;/div&gt;
-&lt;div class=&quot;t m0 x0 h3 y1e0 ff3 fs2 fc0 sc0 ls0 ws0&quot;&gt;eigenvalues.&lt;/div&gt;
-&lt;div class=&quot;t m17 x1 h3 y9c ff3 fs2 fc0 sc0 ls0 ws0&quot;&gt;An eigenvector of a square matrix A is a nonzero vector v such that multiplication by &lt;span class=&quot;ffb&quot;&gt;A &lt;/span&gt;alters only the scale of &lt;span class=&quot;ffb&quot;&gt;v&lt;/span&gt;:&lt;/div&gt;
-&lt;div class=&quot;t m0 x56 h3 y1e1 ffb fs2 fc0 sc0 ls0 ws0&quot;&gt;Av &lt;span class=&quot;ffe&quot;&gt;= &lt;span class=&quot;ff9&quot;&gt;λ&lt;/span&gt;&lt;/span&gt;v&lt;span class=&quot;ff9&quot;&gt;. &lt;span class=&quot;ff3&quot;&gt;(2.39)&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-&lt;div class=&quot;t mf x5 h3 y1e2 ff3 fs2 fc0 sc0 ls0 ws0&quot;&gt;The scalar λ is known as the eigenvalue corresponding to this eigenvector. (One can also ﬁnd a left eigenvector such that vA=λ&lt;span class=&quot;ffb&quot;&gt;v&lt;/span&gt;, but we are usually concerned with right eigenvectors.)&lt;/div&gt;
-&lt;/div&gt;
-&lt;/blockquote&gt;
-&lt;div class=&quot;t mf x5 h3 y1e2 ff3 fs2 fc0 sc0 ls0 ws0&quot;&gt;SVD (p.42)&lt;/div&gt;
-&lt;div&gt;&lt;/div&gt;
-&lt;blockquote&gt;
-&lt;div id=&quot;pfe&quot; class=&quot;pf w0 h0&quot;&gt;
-&lt;div class=&quot;pc pce w0 h0 opened&quot;&gt;
-&lt;div class=&quot;t m2 x5 h3 y245 ff3 fs2 fc0 sc0 ls0 ws0&quot;&gt;The singular value decomposition (SVD) provides another way to factorize a matrix, into &lt;strong&gt;singular vectors&lt;/strong&gt; and &lt;strong&gt;singular values&lt;/strong&gt;. The SVD enables us to&lt;/div&gt;
-&lt;div class=&quot;t m5 x0 h3 y247 ff3 fs2 fc0 sc0 ls0 ws0&quot;&gt;discover some of the same kind of information as the eigendecomposition reveals;&lt;/div&gt;
-&lt;div class=&quot;t m12 x0 h3 y248 ff3 fs2 fc0 sc0 ls0 ws0&quot;&gt;however, the SVD is more generally applicable. Every real matrix has a singular&lt;/div&gt;
-&lt;div class=&quot;t m2 x5 h3 y249 ff3 fs2 fc0 sc0 ls0 ws0&quot;&gt;value decomposition, but the same is not true of the eigenvalue decomposition.&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;pff&quot; class=&quot;pf w0 h0&quot;&gt;
-&lt;div class=&quot;pc pcf w0 h0 opened&quot;&gt;
-&lt;div class=&quot;t m6 x0 h3 y1a ff3 fs2 fc0 sc0 ls0 ws0&quot;&gt;For example, if a matrix is not square, the eigendecomposition is not deﬁned, and&lt;/div&gt;
-&lt;div class=&quot;t m0 x5 h3 y1b ff3 fs2 fc0 sc0 ls0 ws0&quot;&gt;we must use a singular value decomposition instead.&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">http://www.deeplearningbook.org/contents/linear_algebra.html</summary></entry></feed>
+&lt;p&gt;RMSProp : Adapt correction factor to each parameter.&lt;/p&gt;</content><author><name></name></author><summary type="html">https://www.datasciencecentral.com/profiles/blogs/a-brief-and-comprehensive-guide-to-stochastic-gradient-descent</summary></entry></feed>

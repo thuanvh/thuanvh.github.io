@@ -28,26 +28,41 @@ Keep single exit point is better. Should not return in the middle.
 <https://www.techbeamers.com/essential-python-tips-tricks-programmers>
 
 1. swap
+```
 x, y = y, x
+```
 2. reverse a string
+```
 a = "abc"
 print(a[::-1])
+```
 3. string concatenation
+```
 a = ["a", "b", "c"]
 print("".join(a))
 print(" ".join(a))
+```
 4. chaining of comparion
+```
 a = 10
 print(1 < a <= 20)
 print(1 > a <= 9)
+```
 5. know where is module located
+```
 import os
 print(os)
+```
 6. enum in python
+```
 class A:
     E1, E2, E3 = range(3)
 print(A.E1, A.E2, A.E3)
+```
+
 7. use dictionary for switch
+
+```
 stdcalc = {
 	'sum': lambda x, y: x + y,
 	'subtract': lambda x, y: x - y
@@ -56,14 +71,23 @@ stdcalc = {
 print(stdcalc['sum'](9,3))
 print(stdcalc['subtract'](9,3))
 
+Output:
 #1-> 12
 #2-> 6
+```
+
 8. most frequent array
+
+```
 test = [1,2,3,4,2,2,3,1,4,4,4]
 print(max(set(test), key=test.count))
 
 #-> 4
+```
+
 9. reset recursion limit
+
+```
 import sys
 
 x=1001
@@ -74,13 +98,21 @@ print(sys.getrecursionlimit())
 
 #1-> 1000
 #2-> 1001
+```
+
 10. check memory of object
+
+```
 import sys
 x=1
 print(sys.getsizeof(x))
 
 #-> 24
+```
+
 11. use __slots__ to reduce memory overheads
+
+```
 import sys
 class FileSystem(object):
 
@@ -105,14 +137,21 @@ print(sys.getsizeof( FileSystem1 ))
 #In Python 3.5
 #1-> 1016
 #2-> 888
+```
+
 12. Search prefix or suffix 
+
+```
 print("http://www.google.com".startswith(("http://", "https://")))
 print("http://www.google.co.uk".endswith((".com", ".co.uk")))
 
 #1-> True
 #2-> True
+```
 
 13. Switch case
+
+```
 def xswitch(x): 
 	return xswitch._system_dict.get(x, None) 
 
@@ -123,5 +162,5 @@ print(xswitch('devices'))
 
 #1-> None
 #2-> 2
-  
+```
 
