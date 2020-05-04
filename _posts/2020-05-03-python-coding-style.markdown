@@ -198,3 +198,24 @@ test = [[-1, -2], [1, 2, 3, [4, (5, [6, 7])]], (30, 40), [25, 35]]
 print(list(more_itertools.collapse(test)))
 #Output=> [-1, -2, 1, 2, 3, 4, 5, 6, 7, 30, 40, 25, 35]
 ```
+17. * usage in python
+https://medium.com/understand-the-python/understanding-the-asterisk-of-python-8b9daaa4a558
+```
+2 * 3
+2 ** 3
+zeros_list = [0] * 100
+zeros_tuples = (0,) * 100
+```
+
+When use only positional arguments```print(*args)```
+When use only keyword arguments```print(**key_word_args)```
+When use both positional arguments and keyword arguments```print(*args,**key_word_args)```
+
+Remaining in unpacking
+```
+alist = [1, 2, 3, 4, 5, 6]
+*a, = alist #[1, 2, 3, 4, 5, 6]
+*a, b, = alist #[1, 2, 3, 4, 5], 6
+a, *b, c = alist # 1, [2, 3, 4, 5], 6
+```
+
