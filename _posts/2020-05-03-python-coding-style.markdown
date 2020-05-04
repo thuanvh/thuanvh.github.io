@@ -218,4 +218,19 @@ alist = [1, 2, 3, 4, 5, 6]
 *a, b, = alist #[1, 2, 3, 4, 5], 6
 a, *b, c = alist # 1, [2, 3, 4, 5], 6
 ```
+18. Yeald, generator
+
+<https://stackoverflow.com/questions/231767/what-does-the-yield-keyword-do>
+
+Generator is an iterable. That is iterated once.
+Yeald keyword return a generator object.
+Call next to iterate a generator.
+
+```
+mylist = [x*x for x in range(3)]
+mygenerator = (x*x for x in range(3))
+```
+Generator not store data in memory, it calculates data.
+
+Need use itertools module.
 
