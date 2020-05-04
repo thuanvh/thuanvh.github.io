@@ -163,4 +163,38 @@ print(xswitch('devices'))
 #1-> None
 #2-> 2
 ```
+14. Splash operator, \*-operator
+https://docs.python.org/3/tutorial/controlflow.html#unpacking-argument-lists
+```
+x = [3,6]
+print(list(range(*x)))
+=> 3, 4, 5
+```
+```
+def test(x, y, z):
+	print(x, y, z)
 
+testDict = {'x': 1, 'y': 2, 'z': 3} 
+testList = [10, 20, 30]
+
+test(*testDict)
+test(**testDict)
+test(*testList)
+
+#1-> x y z
+#2-> 1 2 3
+#3-> 10 20 30
+```
+15. Create dictionary from two related sequences
+```
+a = [1, 2, 3]
+b = [10, 20, 30]
+print(dict(zip(a,b)))
+```
+16. Unify list from a complex list
+```
+import more_itertools
+test = [[-1, -2], [1, 2, 3, [4, (5, [6, 7])]], (30, 40), [25, 35]]
+print(list(more_itertools.collapse(test)))
+#Output=> [-1, -2, 1, 2, 3, 4, 5, 6, 7, 30, 40, 25, 35]
+```
