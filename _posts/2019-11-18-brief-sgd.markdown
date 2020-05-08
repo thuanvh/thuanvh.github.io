@@ -7,23 +7,13 @@ parent_id: '0'
 published: true
 password: ''
 status: publish
-categories: []
-tags: []
-meta:
-  _oembed_36dec08d900d7c9a21e193ec9e1d9a15: "{{unknown}}"
-  _oembed_d2487ee06b8298c2e9bd28ec86f613cb: "{{unknown}}"
-  _rest_api_published: '1'
-  _rest_api_client_id: "-1"
-  _publicize_job_id: '37540821513'
-  timeline_notification: '1574065428'
-  _oembed_267ac1be734cc11f6e2988d08d848d73: "{{unknown}}"
-
-permalink: "/2019/11/18/brief-sgd/"
 ---
 
+Post about some SGDs [here](
 https://www.datasciencecentral.com/profiles/blogs/a-brief-and-comprehensive-guide-to-stochastic-gradient-descent
+)
 
-In the above reference, it displays some idea of some SGD optimization in a short way which support us to summarize important ideas of SGD.
+In the above reference, the author displays some idea of some SGD optimization in a short way which support us to summarize important ideas of SGD.
 
 SGD
 
