@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 ---
 
 <https://github.com/NathanUA/U-2-Net>
