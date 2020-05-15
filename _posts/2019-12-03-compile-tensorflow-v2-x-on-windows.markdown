@@ -24,7 +24,7 @@ Note:
 <li>Run on virtualenv</li>
 </ul>
 
-
+<script src="https://gist.github.com/thuanvh/04e34f1a74c2e6be79ae72a8906cc47d.js"></script>
 
 [Link of script](https://gist.github.com/thuanvh/04e34f1a74c2e6be79ae72a8906cc47d)
 
