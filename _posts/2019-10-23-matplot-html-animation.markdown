@@ -15,4 +15,4 @@ permalink: "/2019/10/23/matplot-html-animation/"
 
 Here an interesting example of building an animation in python
 
-https://twitter.com/colindcarroll/status/1186825422694223872
+<https://twitter.com/colindcarroll/status/1186825422694223872>

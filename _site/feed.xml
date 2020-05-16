@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-16T11:15:04+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">A bla bla developer blog</title><subtitle>Work note.</subtitle><entry><title type="html">Pose To Animation</title><link href="http://localhost:4000/2020/05/10/pose-to-animation.html" rel="alternate" type="text/html" title="Pose To Animation" /><published>2020-05-10T00:00:00+07:00</published><updated>2020-05-10T00:00:00+07:00</updated><id>http://localhost:4000/2020/05/10/pose-to-animation</id><content type="html" xml:base="http://localhost:4000/2020/05/10/pose-to-animation.html">&lt;p&gt;An interesting application for animation is using pose-animator.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-16T11:30:10+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">A bla bla developer blog</title><subtitle>Work note.</subtitle><entry><title type="html">Pose To Animation</title><link href="http://localhost:4000/2020/05/10/pose-to-animation.html" rel="alternate" type="text/html" title="Pose To Animation" /><published>2020-05-10T00:00:00+07:00</published><updated>2020-05-10T00:00:00+07:00</updated><id>http://localhost:4000/2020/05/10/pose-to-animation</id><content type="html" xml:base="http://localhost:4000/2020/05/10/pose-to-animation.html">&lt;p&gt;An interesting application for animation is using pose-animator.
 Here an example for using it.
 &lt;a href=&quot;https://github.com/yemount/pose-animator/&quot;&gt;https://github.com/yemount/pose-animator/&lt;/a&gt;&lt;/p&gt;
 
@@ -324,7 +324,7 @@ For CPU bound application, we prefer multiprocess.&lt;/p&gt;</content><author><n
 
 &lt;p&gt;It is an interesting question and answer.&lt;/p&gt;
 
-&lt;p&gt;https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array?r=SearchResults&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array?r=SearchResults&quot;&gt;https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array?r=SearchResults&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;The author find a difference in time performance of a loop with a condition inside.&lt;br /&gt;
 The loop run faster with a sorted array. The loop run a lot slower with unsorted array.&lt;/p&gt;
@@ -336,9 +336,10 @@ The loop run faster with a sorted array. The loop run a lot slower with unsorted
 &lt;p&gt;So I think the optimization is very interesting in this case. We could optimize it by rewrite the if/else condition into single sentence.&lt;/p&gt;
 
 &lt;p&gt;Summary:&lt;/p&gt;
+
 &lt;ul&gt;
-&lt;li&gt;Limit of conditional instruction.&lt;/li&gt;
-&lt;li&gt;Rewrite conditional may cause a difficulty in understanding code.&lt;/li&gt;
+  &lt;li&gt;Limit of conditional instruction.&lt;/li&gt;
+  &lt;li&gt;Rewrite conditional may cause a difficulty in understanding code.&lt;/li&gt;
 &lt;/ul&gt;</content><author><name></name></author><summary type="html">It is a great day when I read an interesting post in Stackoverflow about branch prediction.</summary></entry><entry><title type="html">Compile Tensorflow v2.x on Windows</title><link href="http://localhost:4000/2019/12/03/compile-tensorflow-v2-x-on-windows/" rel="alternate" type="text/html" title="Compile Tensorflow v2.x on Windows" /><published>2019-12-03T09:54:58+07:00</published><updated>2019-12-03T09:54:58+07:00</updated><id>http://localhost:4000/2019/12/03/compile-tensorflow-v2-x-on-windows</id><content type="html" xml:base="http://localhost:4000/2019/12/03/compile-tensorflow-v2-x-on-windows/">&lt;p&gt;Build it as &lt;a href=&quot;https://www.tensorflow.org/install/source_windows&quot;&gt;instruction link&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Note:&lt;/p&gt;

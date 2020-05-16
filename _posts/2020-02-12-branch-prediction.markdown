@@ -8,15 +8,6 @@ published: true
 password: ''
 status: publish
 categories: []
-tags: []
-meta:
-  _oembed_8f2e0784b8c3d7ad0a96b6f9b89d6600: "{{unknown}}"
-  _oembed_be69bf487e5e9eb7eb29f937ce37eb5b: "{{unknown}}"
-  _oembed_9c734c2a9bb0e738b235425234acfb41: "{{unknown}}"
-  timeline_notification: '1581488434'
-  _rest_api_published: '1'
-  _rest_api_client_id: "-1"
-  _publicize_job_id: '40597242058'
 
 permalink: "/2020/02/12/branch-prediction/"
 ---
@@ -25,7 +16,7 @@ It is a great day when I read an interesting post in Stackoverflow about branch 
 
 It is an interesting question and answer.
 
-https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array?r=SearchResults
+<https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array?r=SearchResults>
 
 The author find a difference in time performance of a loop with a condition inside.<br />
 The loop run faster with a sorted array. The loop run a lot slower with unsorted array.
@@ -37,7 +28,7 @@ But with an unsorted array, it not runs smoothly because it must switch in if/el
 So I think the optimization is very interesting in this case. We could optimize it by rewrite the if/else condition into single sentence.
 
 Summary:
-<ul>
-<li>Limit of conditional instruction.</li>
-<li>Rewrite conditional may cause a difficulty in understanding code.</li>
-</ul>
+
+* Limit of conditional instruction.
+* Rewrite conditional may cause a difficulty in understanding code.
+
