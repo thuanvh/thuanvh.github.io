@@ -16,13 +16,12 @@ permalink: "/2019/12/03/compile-tensorflow-v2-x-on-windows/"
 Build it as [instruction link](https://www.tensorflow.org/install/source_windows)
 
 Note:
-<ul>
-<li>Download Bazelick and rename it to bazel</li>
-<li>Add to bazel folder to PATH</li>
-<li>Install Msys64</li>
-<li>Install python numpy package</li>
-<li>Run on virtualenv</li>
-</ul>
+
+1.Download Bazelick and rename it to bazel
+2.Add to bazel folder to PATH
+3.Install Msys64
+4.Install python numpy package
+5.Run on virtualenv
 
 <script src="https://gist.github.com/thuanvh/04e34f1a74c2e6be79ae72a8906cc47d.js"></script>
 

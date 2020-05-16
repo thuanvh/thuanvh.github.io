@@ -1,9 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-03T16:36:56+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">A bla bla developer blog</title><subtitle>Work note.</subtitle><entry><title type="html">Python-coding-style</title><link href="http://localhost:4000/jekyll/update/2020/05/03/python-coding-style.html" rel="alternate" type="text/html" title="Python-coding-style" /><published>2020-05-03T01:17:24+07:00</published><updated>2020-05-03T01:17:24+07:00</updated><id>http://localhost:4000/jekyll/update/2020/05/03/python-coding-style</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/05/03/python-coding-style.html">&lt;p&gt;After look up for coding convention for Python. I have read a few guide for python coding convention.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-16T11:15:04+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">A bla bla developer blog</title><subtitle>Work note.</subtitle><entry><title type="html">Pose To Animation</title><link href="http://localhost:4000/2020/05/10/pose-to-animation.html" rel="alternate" type="text/html" title="Pose To Animation" /><published>2020-05-10T00:00:00+07:00</published><updated>2020-05-10T00:00:00+07:00</updated><id>http://localhost:4000/2020/05/10/pose-to-animation</id><content type="html" xml:base="http://localhost:4000/2020/05/10/pose-to-animation.html">&lt;p&gt;An interesting application for animation is using pose-animator.
+Here an example for using it.
+&lt;a href=&quot;https://github.com/yemount/pose-animator/&quot;&gt;https://github.com/yemount/pose-animator/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;TLDR;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;SVG for storage skeleton image and points&lt;/li&gt;
+  &lt;li&gt;Keypoints are detected from &lt;a href=&quot;https://www.tensorflow.org/lite/models/pose_estimation/overview&quot;&gt;PoseNet&lt;/a&gt;
+and &lt;a href=&quot;https://github.com/tensorflow/tfjs-models/tree/master/facemesh&quot;&gt;FaceMesh&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">An interesting application for animation is using pose-animator. Here an example for using it. https://github.com/yemount/pose-animator/</summary></entry><entry><title type="html">Unet2 Go Deeper For Salient Detection</title><link href="http://localhost:4000/2020/05/10/unet2-go-deeper-for-salient-detection.html" rel="alternate" type="text/html" title="Unet2 Go Deeper For Salient Detection" /><published>2020-05-10T00:00:00+07:00</published><updated>2020-05-10T00:00:00+07:00</updated><id>http://localhost:4000/2020/05/10/unet2-go-deeper-for-salient-detection</id><content type="html" xml:base="http://localhost:4000/2020/05/10/unet2-go-deeper-for-salient-detection.html">&lt;p&gt;&lt;a href=&quot;https://github.com/NathanUA/U-2-Net&quot;&gt;https://github.com/NathanUA/U-2-Net&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Use unet for detect slient object for background removal.
+It is a very interesting when they release a model is only 4MB.&lt;/p&gt;</content><author><name></name></author><summary type="html">https://github.com/NathanUA/U-2-Net</summary></entry><entry><title type="html">Python coding style</title><link href="http://localhost:4000/jekyll/update/2020/05/03/python-coding-style.html" rel="alternate" type="text/html" title="Python coding style" /><published>2020-05-03T01:17:24+07:00</published><updated>2020-05-03T01:17:24+07:00</updated><id>http://localhost:4000/jekyll/update/2020/05/03/python-coding-style</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/05/03/python-coding-style.html">&lt;p&gt;After look up for coding convention for Python. I have read a few guide for python coding convention.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://docs.python-guide.org/writing/style/&quot;&gt;https://docs.python-guide.org/writing/style/&lt;/a&gt;
 Firstly is coding style written by Hitchhiker.&lt;/p&gt;
 
-&lt;p&gt;In summary for tldr;&lt;/p&gt;
+&lt;h1 id=&quot;in-summary-for-tldr&quot;&gt;In summary for tldr;&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Explicit code. Should write as normal thinking of people&lt;/li&gt;
@@ -23,41 +35,40 @@ Keep single exit point is better. Should not return in the middle.&lt;/li&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/10-essential-python-tips-tricks-programmers&quot;&gt;https://www.geeksforgeeks.org/10-essential-python-tips-tricks-programmers&lt;/a&gt;
 &lt;a href=&quot;https://www.techbeamers.com/essential-python-tips-tricks-programmers&quot;&gt;https://www.techbeamers.com/essential-python-tips-tricks-programmers&lt;/a&gt;&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;swap
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;x, y = y, x
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;reverse a string
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;a = &quot;abc&quot;
+&lt;h1 id=&quot;swap&quot;&gt;swap&lt;/h1&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h1 id=&quot;reverse-a-string&quot;&gt;reverse a string&lt;/h1&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;a = &quot;abc&quot;
 print(a[::-1])
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;string concatenation
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;a = [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h1 id=&quot;string-concatenation&quot;&gt;string concatenation&lt;/h1&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;a = [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;]
 print(&quot;&quot;.join(a))
 print(&quot; &quot;.join(a))
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;chaining of comparion
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;a = 10
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h1 id=&quot;chaining-of-comparion&quot;&gt;chaining of comparion&lt;/h1&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;a = 10
 print(1 &amp;lt; a &amp;lt;= 20)
 print(1 &amp;gt; a &amp;lt;= 9)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;know where is module located
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import os
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h1 id=&quot;know-where-is-module-located&quot;&gt;know where is module located&lt;/h1&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import os
 print(os)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;enum in python
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;class A:
- E1, E2, E3 = range(3)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h1 id=&quot;enum-in-python&quot;&gt;enum in python&lt;/h1&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;class A:
+    E1, E2, E3 = range(3)
 print(A.E1, A.E2, A.E3)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;use dictionary for switch&lt;/li&gt;
-&lt;/ol&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;use-dictionary-for-switch&quot;&gt;use dictionary for switch&lt;/h1&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;stdcalc = {
 	'sum': lambda x, y: x + y,
@@ -72,9 +83,7 @@ Output:
 #2-&amp;gt; 6
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;most frequent array&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h1 id=&quot;most-frequent-array&quot;&gt;most frequent array&lt;/h1&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;test = [1,2,3,4,2,2,3,1,4,4,4]
 print(max(set(test), key=test.count))
@@ -82,9 +91,7 @@ print(max(set(test), key=test.count))
 #-&amp;gt; 4
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;reset recursion limit&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h1 id=&quot;reset-recursion-limit&quot;&gt;reset recursion limit&lt;/h1&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import sys
 
@@ -98,9 +105,7 @@ print(sys.getrecursionlimit())
 #2-&amp;gt; 1001
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;check memory of object&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h1 id=&quot;check-memory-of-object&quot;&gt;check memory of object&lt;/h1&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import sys
 x=1
@@ -109,9 +114,7 @@ print(sys.getsizeof(x))
 #-&amp;gt; 24
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;use &lt;strong&gt;slots&lt;/strong&gt; to reduce memory overheads&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h1 id=&quot;use-slots-to-reduce-memory-overheads&quot;&gt;use &lt;strong&gt;slots&lt;/strong&gt; to reduce memory overheads&lt;/h1&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import sys
 class FileSystem(object):
@@ -139,9 +142,7 @@ print(sys.getsizeof( FileSystem1 ))
 #2-&amp;gt; 888
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;Search prefix or suffix&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h1 id=&quot;search-prefix-or-suffix&quot;&gt;Search prefix or suffix&lt;/h1&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;print(&quot;http://www.google.com&quot;.startswith((&quot;http://&quot;, &quot;https://&quot;)))
 print(&quot;http://www.google.co.uk&quot;.endswith((&quot;.com&quot;, &quot;.co.uk&quot;)))
@@ -150,9 +151,7 @@ print(&quot;http://www.google.co.uk&quot;.endswith((&quot;.com&quot;, &quot;.co.
 #2-&amp;gt; True
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;Switch case&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h1 id=&quot;switch-case&quot;&gt;Switch case&lt;/h1&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def xswitch(x): 
 	return xswitch._system_dict.get(x, None) 
@@ -164,19 +163,77 @@ print(xswitch('devices'))
 
 #1-&amp;gt; None
 #2-&amp;gt; 2
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">After look up for coding convention for Python. I have read a few guide for python coding convention.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2020/05/02/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-05-02T01:17:24+07:00</published><updated>2020-05-02T01:17:24+07:00</updated><id>http://localhost:4000/jekyll/update/2020/05/02/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/05/02/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;h1 id=&quot;splash-operator--operator&quot;&gt;Splash operator, *-operator&lt;/h1&gt;
+&lt;p&gt;https://docs.python.org/3/tutorial/controlflow.html#unpacking-argument-lists&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;x = [3,6]
+print(list(range(*x)))
+=&amp;gt; 3, 4, 5
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def test(x, y, z):
+	print(x, y, z)
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+testDict = {'x': 1, 'y': 2, 'z': 3} 
+testList = [10, 20, 30]
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+test(*testDict)
+test(**testDict)
+test(*testList)
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Speed up python code</title><link href="http://localhost:4000/2020/04/03/speed-up-python-code/" rel="alternate" type="text/html" title="Speed up python code" /><published>2020-04-03T05:58:57+07:00</published><updated>2020-04-03T05:58:57+07:00</updated><id>http://localhost:4000/2020/04/03/speed-up-python-code</id><content type="html" xml:base="http://localhost:4000/2020/04/03/speed-up-python-code/">&lt;p&gt;https://towardsdatascience.com/how-to-speed-up-your-python-code-d31927691012&lt;/p&gt;
+#1-&amp;gt; x y z
+#2-&amp;gt; 1 2 3
+#3-&amp;gt; 10 20 30
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h1 id=&quot;create-dictionary-from-two-related-sequences&quot;&gt;Create dictionary from two related sequences&lt;/h1&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;a = [1, 2, 3]
+b = [10, 20, 30]
+print(dict(zip(a,b)))
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h1 id=&quot;unify-list-from-a-complex-list&quot;&gt;Unify list from a complex list&lt;/h1&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import more_itertools
+test = [[-1, -2], [1, 2, 3, [4, (5, [6, 7])]], (30, 40), [25, 35]]
+print(list(more_itertools.collapse(test)))
+#Output=&amp;gt; [-1, -2, 1, 2, 3, 4, 5, 6, 7, 30, 40, 25, 35]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h1 id=&quot;-usage-in-python&quot;&gt;* usage in python&lt;/h1&gt;
+&lt;p&gt;https://medium.com/understand-the-python/understanding-the-asterisk-of-python-8b9daaa4a558&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;2 * 3
+2 ** 3
+zeros_list = [0] * 100
+zeros_tuples = (0,) * 100
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;When use only positional arguments&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;print(*args)&lt;/code&gt;
+When use only keyword arguments&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;print(**key_word_args)&lt;/code&gt;
+When use both positional arguments and keyword arguments&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;print(*args,**key_word_args)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Remaining in unpacking&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;alist = [1, 2, 3, 4, 5, 6]
+*a, = alist #[1, 2, 3, 4, 5, 6]
+*a, b, = alist #[1, 2, 3, 4, 5], 6
+a, *b, c = alist # 1, [2, 3, 4, 5], 6
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;yeald-generator&quot;&gt;Yeald, generator&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/231767/what-does-the-yield-keyword-do&quot;&gt;https://stackoverflow.com/questions/231767/what-does-the-yield-keyword-do&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Generator is an iterable. That is iterated once.
+Yeald keyword return a generator object.
+Call next to iterate a generator.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mylist = [x*x for x in range(3)]
+mygenerator = (x*x for x in range(3))
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Generator not store data in memory, it calculates data.&lt;/p&gt;
+
+&lt;p&gt;Need use itertools module.&lt;/p&gt;</content><author><name></name></author><summary type="html">After look up for coding convention for Python. I have read a few guide for python coding convention.</summary></entry><entry><title type="html">Strategy to create a queue!</title><link href="http://localhost:4000/jekyll/update/2020/05/02/queue-download-app.html" rel="alternate" type="text/html" title="Strategy to create a queue!" /><published>2020-05-02T01:17:24+07:00</published><updated>2020-05-02T01:17:24+07:00</updated><id>http://localhost:4000/jekyll/update/2020/05/02/queue-download-app</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/05/02/queue-download-app.html">&lt;p&gt;There is a strategy to kick up an openning by call a waiting list.
+Such as:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Register to be a beginner&lt;/li&gt;
+  &lt;li&gt;Register to be first to get 100 GB free&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">There is a strategy to kick up an openning by call a waiting list. Such as: Register to be a beginner Register to be first to get 100 GB free</summary></entry><entry><title type="html">Speed up python code</title><link href="http://localhost:4000/2020/04/03/speed-up-python-code/" rel="alternate" type="text/html" title="Speed up python code" /><published>2020-04-03T05:58:57+07:00</published><updated>2020-04-03T05:58:57+07:00</updated><id>http://localhost:4000/2020/04/03/speed-up-python-code</id><content type="html" xml:base="http://localhost:4000/2020/04/03/speed-up-python-code/">&lt;p&gt;&lt;a href=&quot;https://towardsdatascience.com/how-to-speed-up-your-python-code-d31927691012&quot;&gt;https://towardsdatascience.com/how-to-speed-up-your-python-code-d31927691012&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I have read a few analyse in using python :&lt;/p&gt;
 
@@ -186,23 +243,27 @@ print(xswitch('devices'))
   &lt;li&gt;Use multithread for IO bound or asyncio&lt;/li&gt;
   &lt;li&gt;Use multiprocess for CPU bound&lt;/li&gt;
   &lt;li&gt;Use hadoop for distributed computing for move to cloud&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">https://towardsdatascience.com/how-to-speed-up-your-python-code-d31927691012</summary></entry><entry><title type="html">Training Parallelism</title><link href="http://localhost:4000/2020/03/28/training-parallelism/" rel="alternate" type="text/html" title="Training Parallelism" /><published>2020-03-28T16:46:30+07:00</published><updated>2020-03-28T16:46:30+07:00</updated><id>http://localhost:4000/2020/03/28/training-parallelism</id><content type="html" xml:base="http://localhost:4000/2020/03/28/training-parallelism/">&lt;p&gt;&lt;strong&gt;Training with memory limit&lt;/strong&gt;&lt;/p&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;One mark when we care about python, and this is ask in many job interview.
+For IO bound application, we prefer multithread.
+For CPU bound application, we prefer multiprocess.&lt;/p&gt;</content><author><name></name></author><summary type="html">https://towardsdatascience.com/how-to-speed-up-your-python-code-d31927691012</summary></entry><entry><title type="html">Training Parallelism</title><link href="http://localhost:4000/2020/03/28/training-parallelism/" rel="alternate" type="text/html" title="Training Parallelism" /><published>2020-03-28T16:46:30+07:00</published><updated>2020-03-28T16:46:30+07:00</updated><id>http://localhost:4000/2020/03/28/training-parallelism</id><content type="html" xml:base="http://localhost:4000/2020/03/28/training-parallelism/">&lt;h1 id=&quot;training-with-memory-limit&quot;&gt;Training with memory limit&lt;/h1&gt;
 
 &lt;p&gt;One of interesting test about training with memory limit. He use the way to store some nodes in forward steps (not all nodes). Then in backward steps, he recalculate some forward steps (which is not stored) for gradient calculation. The nodes indexes which are stored are sqrt(i)-th node.&lt;/p&gt;
 
-&lt;p&gt;https://github.com/cybertronai/gradient-checkpointing&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/cybertronai/gradient-checkpointing&quot;&gt;https://github.com/cybertronai/gradient-checkpointing&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;And he wrote a post about this technique:&lt;/p&gt;
 
-&lt;p&gt;https://medium.com/tensorflow/fitting-larger-networks-into-memory-583e3c758ff9&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://medium.com/tensorflow/fitting-larger-networks-into-memory-583e3c758ff9&quot;&gt;https://medium.com/tensorflow/fitting-larger-networks-into-memory-583e3c758ff9&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;And the checkpoint concept is used in PyTorch also. The same concept with the above idea. It will save results of some activation nodes. And the other will be recalculated in backward processing.&lt;/p&gt;
 
-&lt;p&gt;https://pytorch.org/docs/stable/checkpoint.html&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://pytorch.org/docs/stable/checkpoint.html&quot;&gt;https://pytorch.org/docs/stable/checkpoint.html&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Normally, with big deeplearning model, with limit memory of GPU, we must train 1 by 1 sample per step. So the gradient is quite noisy. One technique used in this case is gradient-average (Accumulating gradients)&lt;/p&gt;
 
-&lt;p&gt;https://gchlebus.github.io/2018/06/05/gradient-averaging.html&lt;/p&gt;</content><author><name></name></author><summary type="html">Training with memory limit</summary></entry><entry><title type="html">Note of compare vector ptr and obj</title><link href="http://localhost:4000/2020/03/24/note-of-compare-vector-ptr-and-obj/" rel="alternate" type="text/html" title="Note of compare vector ptr and obj" /><published>2020-03-24T03:28:22+07:00</published><updated>2020-03-24T03:28:22+07:00</updated><id>http://localhost:4000/2020/03/24/note-of-compare-vector-ptr-and-obj</id><content type="html" xml:base="http://localhost:4000/2020/03/24/note-of-compare-vector-ptr-and-obj/">&lt;p&gt;Blog: &lt;a href=&quot;https://www.bfilipek.com/2014/05/vector-of-objects-vs-vector-of-pointers.html&quot;&gt;https://www.bfilipek.com/2014/05/vector-of-objects-vs-vector-of-pointers.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://gchlebus.github.io/2018/06/05/gradient-averaging.html&quot;&gt;https://gchlebus.github.io/2018/06/05/gradient-averaging.html&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Training with memory limit</summary></entry><entry><title type="html">Note of compare vector ptr and obj</title><link href="http://localhost:4000/2020/03/24/note-of-compare-vector-ptr-and-obj/" rel="alternate" type="text/html" title="Note of compare vector ptr and obj" /><published>2020-03-24T03:28:22+07:00</published><updated>2020-03-24T03:28:22+07:00</updated><id>http://localhost:4000/2020/03/24/note-of-compare-vector-ptr-and-obj</id><content type="html" xml:base="http://localhost:4000/2020/03/24/note-of-compare-vector-ptr-and-obj/">&lt;p&gt;Blog: &lt;a href=&quot;https://www.bfilipek.com/2014/05/vector-of-objects-vs-vector-of-pointers.html&quot;&gt;https://www.bfilipek.com/2014/05/vector-of-objects-vs-vector-of-pointers.html&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Source: &lt;a href=&quot;https://github.com/fenbf/PointerAccessTest&quot;&gt;https://github.com/fenbf/PointerAccessTest&lt;/a&gt;&lt;/p&gt;
 
@@ -216,44 +277,50 @@ print(xswitch('devices'))
 
 &lt;p&gt;One good think is I could see a QuickBench which is used to create a fast benchmark to check code faster. It is very interesting tool. &lt;a href=&quot;http://quick-bench.com&quot;&gt;http://quick-bench.com&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;QuickBench uses Google benchmark library &lt;a href=&quot;https://github.com/google/benchmark&quot;&gt;https://github.com/google/benchmark&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Blog: https://www.bfilipek.com/2014/05/vector-of-objects-vs-vector-of-pointers.html</summary></entry><entry><title type="html">AI Model deployment</title><link href="http://localhost:4000/2020/02/13/ai-model-deployment/" rel="alternate" type="text/html" title="AI Model deployment" /><published>2020-02-13T10:14:37+07:00</published><updated>2020-02-13T10:14:37+07:00</updated><id>http://localhost:4000/2020/02/13/ai-model-deployment</id><content type="html" xml:base="http://localhost:4000/2020/02/13/ai-model-deployment/">&lt;ol&gt;
-&lt;li&gt;Create queue services:&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;QuickBench uses Google benchmark library &lt;a href=&quot;https://github.com/google/benchmark&quot;&gt;https://github.com/google/benchmark&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Blog: https://www.bfilipek.com/2014/05/vector-of-objects-vs-vector-of-pointers.html</summary></entry><entry><title type="html">AI Model deployment</title><link href="http://localhost:4000/2020/02/13/ai-model-deployment/" rel="alternate" type="text/html" title="AI Model deployment" /><published>2020-02-13T10:14:37+07:00</published><updated>2020-02-13T10:14:37+07:00</updated><id>http://localhost:4000/2020/02/13/ai-model-deployment</id><content type="html" xml:base="http://localhost:4000/2020/02/13/ai-model-deployment/">&lt;h1 id=&quot;create-queue-services&quot;&gt;Create queue services:&lt;/h1&gt;
 
 &lt;p&gt;Create a queue service including 3 task:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Add job to queue&lt;/li&gt;
-&lt;li&gt;Check job status&lt;/li&gt;
-&lt;li&gt;Process job&lt;/li&gt;
+  &lt;li&gt;Add job to queue&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Using MLQ&lt;/p&gt;
+&lt;p&gt;First query is just register a job. The job will be added into a queue in server.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Check job status&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;https://towardsdatascience.com/there-are-two-very-different-ways-to-deploy-ml-models-heres-both-ce2e97c7b9b1&lt;/p&gt;
+&lt;p&gt;Client will frequently check status of the registered job.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Process job&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Server will process jobs, when a job is finished. Client will do next step.&lt;/p&gt;
+
+&lt;h1 id=&quot;using-mlq&quot;&gt;Using MLQ&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://towardsdatascience.com/there-are-two-very-different-ways-to-deploy-ml-models-heres-both-ce2e97c7b9b1&quot;&gt;https://towardsdatascience.com/there-are-two-very-different-ways-to-deploy-ml-models-heres-both-ce2e97c7b9b1&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Try to use CICD to increase deployment :&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/6987e-1bit0ilfcx9ntpgxo7fxwtw.png&quot; /&gt;&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;Alternatives:&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h1 id=&quot;alternatives&quot;&gt;Alternatives:&lt;/h1&gt;
 
 &lt;p&gt;Combine&lt;/p&gt;
 
-&lt;p&gt;https://github.com/tensorflow/serving&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/tensorflow/serving&quot;&gt;https://github.com/tensorflow/serving&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;https://opensource.googleblog.com/2016/02/running-your-models-in-production-with.html&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://opensource.googleblog.com/2016/02/running-your-models-in-production-with.html&quot;&gt;https://opensource.googleblog.com/2016/02/running-your-models-in-production-with.html&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Tensorflow Serving, it is opensource, so we could serve ourselves for model prediction.&lt;/p&gt;
 
-&lt;p&gt;https://eng.uber.com/michelangelo/&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://eng.uber.com/michelangelo&quot;&gt;https://eng.uber.com/michelangelo&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/image8.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;A development and deployment model from Michelangelo Uber.&lt;/p&gt;
 
-&lt;p&gt;https://blog.usejournal.com/a-guide-to-deploying-machine-deep-learning-model-s-in-production-e497fd4b734a&lt;/p&gt;</content><author><name></name></author><summary type="html">Create queue services:</summary></entry><entry><title type="html">Branch Prediction</title><link href="http://localhost:4000/2020/02/12/branch-prediction/" rel="alternate" type="text/html" title="Branch Prediction" /><published>2020-02-12T06:20:31+07:00</published><updated>2020-02-12T06:20:31+07:00</updated><id>http://localhost:4000/2020/02/12/branch-prediction</id><content type="html" xml:base="http://localhost:4000/2020/02/12/branch-prediction/">&lt;p&gt;It is a great day when I read an interesting post in Stackoverflow about branch prediction.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.usejournal.com/a-guide-to-deploying-machine-deep-learning-model-s-in-production-e497fd4b734a&quot;&gt;https://blog.usejournal.com/a-guide-to-deploying-machine-deep-learning-model-s-in-production-e497fd4b734a&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Create queue services:</summary></entry><entry><title type="html">Branch Prediction</title><link href="http://localhost:4000/2020/02/12/branch-prediction/" rel="alternate" type="text/html" title="Branch Prediction" /><published>2020-02-12T06:20:31+07:00</published><updated>2020-02-12T06:20:31+07:00</updated><id>http://localhost:4000/2020/02/12/branch-prediction</id><content type="html" xml:base="http://localhost:4000/2020/02/12/branch-prediction/">&lt;p&gt;It is a great day when I read an interesting post in Stackoverflow about branch prediction.&lt;/p&gt;
 
 &lt;p&gt;It is an interesting question and answer.&lt;/p&gt;
 
@@ -272,37 +339,22 @@ The loop run faster with a sorted array. The loop run a lot slower with unsorted
 &lt;ul&gt;
 &lt;li&gt;Limit of conditional instruction.&lt;/li&gt;
 &lt;li&gt;Rewrite conditional may cause a difficulty in understanding code.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">It is a great day when I read an interesting post in Stackoverflow about branch prediction.</summary></entry><entry><title type="html">Compile Tensorflow v2.x on Windows</title><link href="http://localhost:4000/2019/12/03/compile-tensorflow-v2-x-on-windows/" rel="alternate" type="text/html" title="Compile Tensorflow v2.x on Windows" /><published>2019-12-03T09:54:58+07:00</published><updated>2019-12-03T09:54:58+07:00</updated><id>http://localhost:4000/2019/12/03/compile-tensorflow-v2-x-on-windows</id><content type="html" xml:base="http://localhost:4000/2019/12/03/compile-tensorflow-v2-x-on-windows/">&lt;p&gt;Build it as link https://www.tensorflow.org/install/source_windows&lt;/p&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">It is a great day when I read an interesting post in Stackoverflow about branch prediction.</summary></entry><entry><title type="html">Compile Tensorflow v2.x on Windows</title><link href="http://localhost:4000/2019/12/03/compile-tensorflow-v2-x-on-windows/" rel="alternate" type="text/html" title="Compile Tensorflow v2.x on Windows" /><published>2019-12-03T09:54:58+07:00</published><updated>2019-12-03T09:54:58+07:00</updated><id>http://localhost:4000/2019/12/03/compile-tensorflow-v2-x-on-windows</id><content type="html" xml:base="http://localhost:4000/2019/12/03/compile-tensorflow-v2-x-on-windows/">&lt;p&gt;Build it as &lt;a href=&quot;https://www.tensorflow.org/install/source_windows&quot;&gt;instruction link&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Note:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Download Bazelick and rename it to bazel&lt;/li&gt;
-&lt;li&gt;Add to bazel folder to PATH&lt;/li&gt;
-&lt;li&gt;Install Msys64&lt;/li&gt;
-&lt;li&gt;Install python numpy package&lt;/li&gt;
-&lt;li&gt;Run on virtualenv&lt;/li&gt;
-&lt;/ul&gt;
 
-&lt;p&gt;https://gist.github.com/thuanvh/04e34f1a74c2e6be79ae72a8906cc47d&lt;/p&gt;
+&lt;p&gt;1.Download Bazelick and rename it to bazel
+2.Add to bazel folder to PATH
+3.Install Msys64
+4.Install python numpy package
+5.Run on virtualenv&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/thuanvh/04e34f1a74c2e6be79ae72a8906cc47d.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://gist.github.com/thuanvh/04e34f1a74c2e6be79ae72a8906cc47d&quot;&gt;Link of script&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Binaries Download:&lt;/p&gt;
 
 &lt;p&gt;Tensorflow 2.1.0-rc1 windows:&lt;/p&gt;
 
-&lt;p&gt;https://github.com/thuanvh/tensorflow/releases/tag/2.1.0-rc1-win-x64-avx&lt;/p&gt;</content><author><name></name></author><summary type="html">Build it as link https://www.tensorflow.org/install/source_windows</summary></entry><entry><title type="html">GAN Links</title><link href="http://localhost:4000/2019/11/22/gan-links/" rel="alternate" type="text/html" title="GAN Links" /><published>2019-11-22T03:42:06+07:00</published><updated>2019-11-22T03:42:06+07:00</updated><id>http://localhost:4000/2019/11/22/gan-links</id><content type="html" xml:base="http://localhost:4000/2019/11/22/gan-links/">&lt;p&gt;PGGAN models &lt;a href=&quot;https://drive.google.com/open?id=15hvzxt_XxuokSmj0uO4xxMTMWVc0cIMU&quot;&gt;Model&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;StyleGAN model &lt;a href=&quot;https://drive.google.com/drive/folders/1MASQyN5m0voPcx7-9K0r5gObhvvPups7&quot;&gt;Model&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The implementation of StyleGAN &lt;a href=&quot;https://github.com/NVlabs/stylegan&quot;&gt;Model&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The implementation of BigGAN &lt;a href=&quot;https://github.com/ajbrock/BigGAN-PyTorch&quot;&gt;Model&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">PGGAN models Model</summary></entry><entry><title type="html">Brief SGD</title><link href="http://localhost:4000/2019/11/18/brief-sgd/" rel="alternate" type="text/html" title="Brief SGD" /><published>2019-11-18T08:23:44+07:00</published><updated>2019-11-18T08:23:44+07:00</updated><id>http://localhost:4000/2019/11/18/brief-sgd</id><content type="html" xml:base="http://localhost:4000/2019/11/18/brief-sgd/">&lt;p&gt;https://www.datasciencecentral.com/profiles/blogs/a-brief-and-comprehensive-guide-to-stochastic-gradient-descent&lt;/p&gt;
-
-&lt;p&gt;In the above reference, it displays some idea of some SGD optimization in a short way which support us to summarize important ideas of SGD.&lt;/p&gt;
-
-&lt;p&gt;SGD&lt;/p&gt;
-
-&lt;p&gt;Gradient Perturbation : Add small noisy term to gradient.&lt;/p&gt;
-
-&lt;p&gt;Momentum and Nesterov Momentum : Add a correction factor (a history of gradient change, exponentially weighted moving average) to gradient.&lt;/p&gt;
-
-&lt;p&gt;RMSProp : Adapt correction factor to each parameter.&lt;/p&gt;</content><author><name></name></author><summary type="html">https://www.datasciencecentral.com/profiles/blogs/a-brief-and-comprehensive-guide-to-stochastic-gradient-descent</summary></entry></feed>
+&lt;p&gt;&lt;a href=&quot;https://github.com/thuanvh/tensorflow/releases/tag/2.1.0-rc1-win-x64-avx&quot;&gt;Link of release 2.1.0-rc1&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Build it as instruction link</summary></entry></feed>

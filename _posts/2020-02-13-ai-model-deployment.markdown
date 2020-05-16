@@ -11,15 +11,21 @@ categories: []
 tags: []
 permalink: "/2020/02/13/ai-model-deployment/"
 ---
-Create queue services:
+# Create queue services:
 
 Create a queue service including 3 task:
-*Add job to queue
-*Check job status
-*Process job
+* Add job to queue
+
+First query is just register a job. The job will be added into a queue in server.
+* Check job status
+
+Client will frequently check status of the registered job.
+* Process job
+
+Server will process jobs, when a job is finished. Client will do next step.
 
 
-Using MLQ
+# Using MLQ
 
 <https://towardsdatascience.com/there-are-two-very-different-ways-to-deploy-ml-models-heres-both-ce2e97c7b9b1>
 
@@ -29,7 +35,7 @@ Try to use CICD to increase deployment :
 
 
 
-2. Alternatives:
+# Alternatives:
 
 Combine
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Python-coding-style"
+title:  "Python coding style"
 date:   2020-05-03 01:17:24 +0700
 categories: jekyll update
 ---
@@ -9,7 +9,7 @@ After look up for coding convention for Python. I have read a few guide for pyth
 <https://docs.python-guide.org/writing/style/>
 Firstly is coding style written by Hitchhiker.
 
-In summary for tldr;
+# In summary for tldr;
 
 * Explicit code. Should write as normal thinking of people
 * One state per line. As many languages convention, one line for one state
@@ -27,40 +27,46 @@ Keep single exit point is better. Should not return in the middle.
 <https://www.geeksforgeeks.org/10-essential-python-tips-tricks-programmers>
 <https://www.techbeamers.com/essential-python-tips-tricks-programmers>
 
-1. swap
-```
+# swap
+
+```python
 x, y = y, x
 ```
-2. reverse a string
+# reverse a string
+
 ```
 a = "abc"
 print(a[::-1])
 ```
-3. string concatenation
+# string concatenation
+
 ```
 a = ["a", "b", "c"]
 print("".join(a))
 print(" ".join(a))
 ```
-4. chaining of comparion
+# chaining of comparion
+
 ```
 a = 10
 print(1 < a <= 20)
 print(1 > a <= 9)
 ```
-5. know where is module located
+# know where is module located
+
 ```
 import os
 print(os)
 ```
-6. enum in python
+# enum in python
+
 ```
 class A:
     E1, E2, E3 = range(3)
 print(A.E1, A.E2, A.E3)
 ```
 
-7. use dictionary for switch
+# use dictionary for switch
 
 ```
 stdcalc = {
@@ -76,7 +82,7 @@ Output:
 #2-> 6
 ```
 
-8. most frequent array
+# most frequent array
 
 ```
 test = [1,2,3,4,2,2,3,1,4,4,4]
@@ -85,7 +91,7 @@ print(max(set(test), key=test.count))
 #-> 4
 ```
 
-9. reset recursion limit
+# reset recursion limit
 
 ```
 import sys
@@ -100,7 +106,7 @@ print(sys.getrecursionlimit())
 #2-> 1001
 ```
 
-10. check memory of object
+# check memory of object
 
 ```
 import sys
@@ -110,7 +116,7 @@ print(sys.getsizeof(x))
 #-> 24
 ```
 
-11. use __slots__ to reduce memory overheads
+# use __slots__ to reduce memory overheads
 
 ```
 import sys
@@ -139,7 +145,7 @@ print(sys.getsizeof( FileSystem1 ))
 #2-> 888
 ```
 
-12. Search prefix or suffix 
+# Search prefix or suffix 
 
 ```
 print("http://www.google.com".startswith(("http://", "https://")))
@@ -149,7 +155,7 @@ print("http://www.google.co.uk".endswith((".com", ".co.uk")))
 #2-> True
 ```
 
-13. Switch case
+# Switch case
 
 ```
 def xswitch(x): 
@@ -163,7 +169,8 @@ print(xswitch('devices'))
 #1-> None
 #2-> 2
 ```
-14. Splash operator, \*-operator
+
+# Splash operator, \*-operator
 https://docs.python.org/3/tutorial/controlflow.html#unpacking-argument-lists
 ```
 x = [3,6]
@@ -185,20 +192,20 @@ test(*testList)
 #2-> 1 2 3
 #3-> 10 20 30
 ```
-15. Create dictionary from two related sequences
+# Create dictionary from two related sequences
 ```
 a = [1, 2, 3]
 b = [10, 20, 30]
 print(dict(zip(a,b)))
 ```
-16. Unify list from a complex list
+# Unify list from a complex list
 ```
 import more_itertools
 test = [[-1, -2], [1, 2, 3, [4, (5, [6, 7])]], (30, 40), [25, 35]]
 print(list(more_itertools.collapse(test)))
 #Output=> [-1, -2, 1, 2, 3, 4, 5, 6, 7, 30, 40, 25, 35]
 ```
-17. * usage in python
+# \* usage in python
 https://medium.com/understand-the-python/understanding-the-asterisk-of-python-8b9daaa4a558
 ```
 2 * 3
@@ -218,7 +225,8 @@ alist = [1, 2, 3, 4, 5, 6]
 *a, b, = alist #[1, 2, 3, 4, 5], 6
 a, *b, c = alist # 1, [2, 3, 4, 5], 6
 ```
-18. Yeald, generator
+
+# Yeald, generator
 
 <https://stackoverflow.com/questions/231767/what-does-the-yield-keyword-do>
 

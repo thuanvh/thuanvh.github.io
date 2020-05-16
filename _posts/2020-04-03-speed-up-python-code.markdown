@@ -12,7 +12,7 @@ tags: []
 permalink: "/2020/04/03/speed-up-python-code/"
 ---
 
-https://towardsdatascience.com/how-to-speed-up-your-python-code-d31927691012
+<https://towardsdatascience.com/how-to-speed-up-your-python-code-d31927691012>
 
 I have read a few analyse in using python :
 
@@ -22,3 +22,6 @@ I have read a few analyse in using python :
 * Use multiprocess for CPU bound
 * Use hadoop for distributed computing for move to cloud
 
+One mark when we care about python, and this is ask in many job interview.
+For IO bound application, we prefer multithread.
+For CPU bound application, we prefer multiprocess.
