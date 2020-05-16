@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Strategy to create a queue!"
 date:   2020-05-02 01:17:24 +0700
 categories: jekyll update
 ---
