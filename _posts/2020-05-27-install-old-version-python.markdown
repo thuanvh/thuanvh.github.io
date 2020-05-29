@@ -1,5 +1,5 @@
 ---
-layout : post
+layout: post
 ---
 Here is an example I install python 3.7 on Ubuntu 20.04.
 In Ubuntu 20.04, python 3.8 is the main package of python. 
