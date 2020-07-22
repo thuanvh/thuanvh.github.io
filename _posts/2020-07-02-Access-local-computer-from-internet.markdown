@@ -26,3 +26,7 @@ No need to download and install anything.
 <http://localhost.run/>
 No need to download and install anything.
 
+Another solution is Dynamic DNS:
+- Use DuckDNS <https://www.duckdns.org/>
+- Modify router : change port forwarding to forward request to specified port on a specified PC.
+
