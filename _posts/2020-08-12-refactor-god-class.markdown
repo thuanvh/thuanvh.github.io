@@ -1,6 +1,6 @@
-------
-layout:post
-------
+---
+layout : post
+---
 https://www.infoworld.com/article/3570617/how-to-refactor-god-objects-in-c.html
 
 Here is a report about how to refactor a god object in code.
