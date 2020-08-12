@@ -1,5 +1,5 @@
-
-layer:post
+------
+layout:post
 ------
 https://www.infoworld.com/article/3570617/how-to-refactor-god-objects-in-c.html
 
